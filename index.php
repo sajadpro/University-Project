@@ -47,3 +47,4 @@ if($error === true){
 	echo '<h1>404 Error: Page not found.</h1><p>Reason: Unknown (This is not actually true, the controller method pair doesn\'t exist...).</p>';
 	// header('Location:/404.html');
 }
+?>
