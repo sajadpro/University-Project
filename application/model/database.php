@@ -4,7 +4,7 @@ class database{
 	function __construct()
 	{
 		try{
-			$this->conn = new PDO('mysql:host=localhost;dbname=c1340154;','root', ''); // Local DB server
+			$this->conn = new PDO('mysql:host=localhost;dbname=music_store;','root', ''); // Local DB server
 			$this->conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);	
 		} catch(PDOException $e){
 			die($e->getMessage());

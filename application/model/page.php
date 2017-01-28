@@ -27,7 +27,7 @@ class page {
 			}
 			return $data;
 		} else {
-			return  mysql_real_escape_string(stripslashes($data));
+			return  stripslashes($data);//mysql_real_escape_string(stripslashes($data))
 		}
 	}
 
