@@ -1,7 +1,7 @@
 <div id="main-page">	
 	<div class="scroller-content full-window-height">
 			<div class="container padded">
-					<h1 class="extra-large centre">Welcome to DK Music</h1>
+					<h1 class="extra-large centre">Welcome to SJ Music</h1>
 			</div>
 			<div class="down-arrow-wrap smooth-navigation-next">
 					<span class="down-arrow">
